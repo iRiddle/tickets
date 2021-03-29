@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./bootstrap/css//bootstrap.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <title>Арена</title>
+</head>
+
+<body>
+    <!-- HEADER-START -->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./static/logo.svg" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./afisha.html">Афиша</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./arena.html">Арена</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./news.html">Новости</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                О нас
+                            </a>
+                            <ul class="dropdown-menu about-drop-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">Гарантия подлинности</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Доставка и оплата</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Правила оказания услуг</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Политика конфиденциальности</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Контакты</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./vip.html">Vip-ложи</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./gift.html">Подарочный сертификат</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex">
+                        <a class="nav-link basket" href="./basket.html">
+                            <img src="./static/basket.svg" alt="Корзина">
+                            <span class="basket__count rounded-circle">
+                                5
+                            </span>
+                        </a>
+                        <p class="phone mb-0">
+                            <img src="./static/phone.svg" alt="">
+                            <span class="phone__legend">
+                                8 (800) 77-77-316
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- HEADER-END -->
+    <div class="fluid-container">
+        <div class="row m-0">
+            <div class="col p-0">
+                <div class="main-top-carousel">
+                    <div class="main-top-carousel__item main-top-carousel__item--first">
+                        <div class="container">
+                            <img class="main-top-carousel__img h-100" src="./static/content/maincarousel1.png" alt="">
+                            <div class="row mt-5">
+                                <div class="col-md-12">
+                                    <p class="text-white text-center my-0">
+                                        ВТБ АРЕНА Центральный стадион «Динамо»
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col">
+                                    <p class="fw-bold text-white text-center my-0">
+                                        Официальные билеты
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-6">
+                                    <div class="main-top-carousel__frame">
+                                        <h4>КОНЦЕРТ БИ-2 “NEWBEST XL”</h4>
+                                        <p>Специальные гости: Сети, Лиза Громова</p>
+                                        <div class="d-flex justify-content-between">
+                                            <span class="text-center">от 900</span>
+                                            <div class="d-flex">
+                                                <img class="mx-2" src="./static/clock.svg" alt="">
+                                                <span class="mx-2 align-self-center">15.08.2021</span>
+                                                <span class="align-self-center">19:00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-6">
+                                    <button class="btn btn-primary w-100 main-btn-form">
+                                        Купить билет
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-top-carousel__item main-top-carousel__item--first">
+                        <div class="container d-flex flex-column">
+                            <img class="main-top-carousel__img h-100" src="./static/content/maincarousel1.png" alt="">
+                            <div class="row mt-5">
+                                <div class="col-md-12">
+                                    <p class="text-white text-center my-0">
+                                        ВТБ АРЕНА Центральный стадион «Динамо»
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col">
+                                    <p class="fw-bold text-white text-center my-0">
+                                        Официальные билеты
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-6">
+                                    <div class="main-top-carousel__frame">
+                                        <h4>КОНЦЕРТ БИ-2 “NEWBEST XL”</h4>
+                                        <p>Специальные гости: Сети, Лиза Громова</p>
+                                        <div class="d-flex justify-content-between">
+                                            <span>от 900</span>
+                                            <div class="d-flex">
+                                                <img class="mx-2" src="./static/clock.svg" alt="">
+                                                <span class="mx-2">15.08.2021</span>
+                                                <span>19:00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-6">
+                                    <button class="btn btn-primary w-100">
+                                        Купить билет
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="main-top-carousel__item main-top-carousel__item--first">
+                        <div class="container d-flex flex-column">
+                            <img class="main-top-carousel__img h-100" src="./static/content/maincarousel1.png" alt="">
+                            <div class="row mt-5">
+                                <div class="col-md-12">
+                                    <p class="text-white text-center my-0">
+                                        ВТБ АРЕНА Центральный стадион «Динамо»
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col">
+                                    <p class="fw-bold text-white text-center my-0">
+                                        Официальные билеты
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-6">
+                                    <div class="main-top-carousel__frame">
+                                        <h4>КОНЦЕРТ БИ-2 “NEWBEST XL”</h4>
+                                        <p>Специальные гости: Сети, Лиза Громова</p>
+                                        <div class="d-flex justify-content-between">
+                                            <span>от 900</span>
+                                            <div class="d-flex">
+                                                <img class="mx-2" src="./static/clock.svg" alt="">
+                                                <span class="mx-2">15.08.2021</span>
+                                                <span>19:00</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mb-5">
+                                <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-6">
+                                    <button class="btn btn-primary w-100">
+                                        Купить билет
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="content">
+        <div class="fluid-container bg-white">
+            <div class="container">
+                <div class="row py-4">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="d-flex afisha-links-container">
+                            <div class="afisha-link afisha-link--active">
+                                <a class="nav-link text-uppercase" href="">Все</a>
+                                <div class="afisha-link__border"></div>
+                            </div>
+                            <div class="afisha-link">
+                                <a class="nav-link text-uppercase" href="">Малая Арена</a>
+                                <div class="afisha-link__border"></div>
+                            </div>
+                            <div class="afisha-link">
+                                <a class="nav-link text-uppercase" href="">Большая Арена</a>
+                                <div class="afisha-link__border"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <label for="genre">
+                                Жанр:
+                            </label>
+                            <select class="form-select mx-3" id='genre' aria-label=".form-select-lg example">
+                                <option selected>Популярные</option>
+                                <option value="1">Популярные</option>
+                                <option value="2">Популярные</option>
+                                <option value="3">Популярные</option>
+                            </select>
+                            <input type="date" name="bday" max="3000-12-31" min="1000-01-01" class="form-control">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row my-5">
+                <div class="col">
+                    <p class="text-center">
+                        «Продажа официальных билетов. Получите заряд ярких эмоций! Возможна покупка онлайн или по
+                        телефону 8 (800) 77-77-316».
+                    </p>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card mb-3">
+                        <img src="./static/content/afisha/a1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Матч Ростов-москва</h5>
+                            <div class="d-flex my-2">
+                                <span>
+                                    Площадка:
+                                </span>
+                                <span class="fw-bold">
+                                    Большая арена
+                                </span>
+                            </div>
+                            <div class="d-flex my-2">
+                                <span>
+                                    Дата:
+                                </span>
+                                <span class="fw-bold">
+                                    14 мая, пт. 20:00
+                                </span>
+                            </div>
+                            <div class="d-flex my-2">
+                                <span>
+                                    Стоимость билета:
+                                </span>
+                                <span class="fw-bold">
+                                    от 1500 руб.
+                                </span>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100">Купить билет</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card mb-3">
+                        <img src="./static/content/afisha/a2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Группа Каста</h5>
+                            <div class="d-flex my-2">
+                                <span>
+                                    Площадка:
+                                </span>
+                                <span class="fw-bold">
+                                    Большая арена
+                                </span>
+                            </div>
+                            <div class="d-flex my-2">
+                                <span>
+                                    Дата:
+                                </span>
+                                <span class="fw-bold">
+                                    14 мая, пт. 20:00
+                                </span>
+                            </div>
+                            <div class="d-flex my-2">
+                                <span>
+                                    Стоимость билета:
+                                </span>
+                                <span class="fw-bold">
+                                    от 1500 руб.
+                                </span>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100">Купить билет</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card mb-3">
+                        <img src="./static/content/afisha/a3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Концерт группы Powerwolf</h5>
+                            <div class="d-flex my-2">
+                                <span>
+                                    Площадка:
+                                </span>
+                                <span class="fw-bold">
+                                    Большая арена
+                                </span>
+                            </div>
+                            <div class="d-flex my-2">
+                                <span>
+                                    Дата:
+                                </span>
+                                <span class="fw-bold">
+                                    14 мая, пт. 20:00
+                                </span>
+                            </div>
+                            <div class="d-flex my-2">
+                                <span>
+                                    Стоимость билета:
+                                </span>
+                                <span class="fw-bold">
+                                    от 1500 руб.
+                                </span>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100">Купить билет</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4 col-xl-3">
+                    <div class="card mb-3">
+                        <img src="./static/content/afisha/a4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Концерт @namecorcert</h5>
+                            <div class="d-flex my-2">
+                                <span>
+                                    Площадка:
+                                </span>
+                                <span class="fw-bold">
+                                    Большая арена
+                                </span>
+                            </div>
+                            <div class="d-flex my-2">
+                                <span>
+                                    Дата:
+                                </span>
+                                <span class="fw-bold">
+                                    14 мая, пт. 20:00
+                                </span>
+                            </div>
+                            <div class="d-flex my-2">
+                                <span>
+                                    Стоимость билета:
+                                </span>
+                                <span class="fw-bold">
+                                    от 1500 руб.
+                                </span>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100">Купить билет</a>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-link text-uppercase">Все мероприятия</button>
+            </div>
+            <div class="row my-5">
+                <div class="card border-0 mb-3">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12 col-md-12 col-lg-6 col-xl-6">
+                            <img class="w-100" src="./static/content/afisha/amain.png" alt="...">
+                        </div>
+                        <div class="col-md-6 col-xs-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="card-body h-100 d-flex flex-column justify-content-center">
+                                <h5 class="card-title">Концерт TWENTY ONE PILOTS</h5>
+                                <div class="d-flex flex-column">
+                                    <span class="card-text">
+                                        11 июля, пт. 19:00
+                                    </span>
+                                    <span class="card-text">Малая ВТБ арена</span>
+                                    <a href="#" class="btn btn-primary my-4 w-100">Купить билет</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="content main">
+        <div class="container-fluid bg-white">
+            <div class="container">
+                <div class="row my-5">
+                    <div class="col-sm-8">
+                        <img class="w-100 h-100" src="./static/content/main1.png" alt="">
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="d-flex flex-column">
+                            <img class="mb-4 main__img--small-gap" src="./static/content/main2.png" alt="">
+                            <img src="./static/content/main3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="row mb-5">
+                    <p>ВТБ Арена — многофункциональный спортивный комплекс, включающий в себя футбольную и хоккейную
+                        арену, построенный на месте снесённого московского стадиона «Динамо».
+
+                        Стадион под одной крышей объединяет две арены: Центральный стадион «Динамо» имени Льва Яшина
+                        (вместимость во время футбольного матча — 25 716 человек, вместимость во время концерта — до 33
+                        000 человек)[2] и универсальную «ВТБ Арену» (вместимость во время матчей и концертов составляет
+                        до 14 000 человек в зависимости от конфигурации площадки[источник не указан 339 дней]). Под
+                        спортивной частью стадиона расположен торговый центр «Арена Плаза» и подземная парковка на более
+                        чем 719 машино-мест.
+
+                        Был построен как часть проекта «ВТБ Арена парк», включающего также жилой комплекс, бизнес-центр
+                        и отель.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content">
+        <div class="container">
+            <div class="row gx-4 gy-4 mt-3">
+                <div class="news-carousel">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                        <div class="card">
+                            <img src="./static/content/news1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Новость №1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod
+                                    orci
+                                    habitant blandit nulla dictum interdum. In non dui adipiscing id dictumst </p>
+                                <a href="#" class="stretched-link">Читать далее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                        <div class="card">
+                            <img src="./static/content/news2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Новость №1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod
+                                    orci
+                                    habitant blandit nulla dictum interdum. In non dui adipiscing id dictumst </p>
+                                <a href="#" class="stretched-link">Читать далее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                        <div class="card">
+                            <img src="./static/content/news3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Новость №1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod
+                                    orci
+                                    habitant blandit nulla dictum interdum. In non dui adipiscing id dictumst </p>
+                                <a href="#" class="stretched-link">Читать далее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                        <div class="card">
+                            <img src="./static/content/news1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Новость №1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod
+                                    orci
+                                    habitant blandit nulla dictum interdum. In non dui adipiscing id dictumst </p>
+                                <a href="#" class="stretched-link">Читать далее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                        <div class="card">
+                            <img src="./static/content/news2.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Новость №1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod
+                                    orci
+                                    habitant blandit nulla dictum interdum. In non dui adipiscing id dictumst </p>
+                                <a href="#" class="stretched-link">Читать далее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-4">
+                        <div class="card">
+                            <img src="./static/content/news3.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Новость №1</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Euismod
+                                    orci
+                                    habitant blandit nulla dictum interdum. In non dui adipiscing id dictumst </p>
+                                <a href="#" class="stretched-link">Читать далее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-link">Еще</button>
+            </div>
+            <div class="row mb-5">
+                <div class="col-xs-12 col-sm-12">
+                    <form class="d-flex flex-column mx-auto form mw-100">
+                        <h3 class="text-center">Оставьте заявку, наши менеджеры Вам перезвонят</h3>
+                        <div class="mb-3">
+                            <input type="text" placeholder="Ваше имя" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                            <input type="tel" placeholder="Ваш телефон" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <button type="submit" class="btn btn-primary">Оставить заявку</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER START -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row gx-0 gy-0 py-5">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-3 px-3">
+                    <img class="my-3" src="./static/logo.svg" alt="">
+                    <p class="footer__description m-0">
+                        Консьерж-сервис по оказанию услуг по подбору, бронированию и доставке билетов “домен”.
+                        Не является официальным сайтом ВТБ Арены.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 px-3">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a class="nav-link" href="./guarantee.html">
+                                Гарантия подлинности
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="">
+                                Доставка и оплата
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="">
+                                Правила оказания услуг
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="">
+                                Политика конфиденциальности
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a href="./contacts.html" class="nav-link">
+                                Контакты
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 px-3">
+                    <ul class="list-group">
+                        <li class="list-group-item">
+                            <a class="nav-link" href="./index.html">
+                                Главная
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="./afisha.html">
+                                Афиша
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="./arena.html">
+                                Арена
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="./news.html">
+                                Новости
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="">
+                                О нас
+                            </a>
+                        </li>
+                        <li class="list-group-item">
+                            <a class="nav-link" href="./vip.html">
+                                Vip-ложи
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 col-lg-3 px-3">
+                    <p class="phone mb-0 py-3">
+                        <img src="./static/phone.svg" alt="">
+                        <span class="phone__legend">
+                            8 (800) 77-77-316
+                        </span>
+                    </p>
+                    <a class="nav-link" href="mailto:example@mail.ru">example@mail.ru</a>
+                    <div class="pay-block">
+                        <img src="./static/content/gpay.png" alt="">
+                        <img src="./static/content/wpay.png" alt="">
+                        <img src="./static/content/mopay.png" alt="">
+                        <img src="./static/content/apay.png" alt="">
+                        <img src="./static/content/mpay.png" alt="">
+                        <img src="./static/content/vpay.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- FOOTER END -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="./bootstrap/js/bootstrap.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.news-carousel').slick({
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                arrows: false,
+
+                responsive: [
+                    {
+                        breakpoint: 1440,
+                        settings: {
+                            slidesToShow: 3,
+                            centerMode: false,
+                            slidesToScroll: 3,
+                            infinite: true,
+                        }
+                    },
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                            arrows: false
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 2,
+                            arrows: false
+                        }
+                    },
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            centerMode: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 2,
+                            arrows: false
+                        }
+                    }
+                ]
+            });
+            $('.main-top-carousel').slick({
+                centerPadding: '180px',
+                centerMode: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                infinite: true,
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 1440,
+                        settings: {
+                            centerPadding: '80px',
+                            centerMode: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                        }
+                    },
+                    {
+                        breakpoint: 992,
+                        settings: {
+                            centerPadding: '40px',
+                            centerMode: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            centerPadding: '20px',
+                            centerMode: true,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                        }
+                    },
+                    {
+                        breakpoint: 576,
+                        settings: {
+                            centerMode: false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            infinite: true,
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+</body>
+
+</html>
