@@ -14,7 +14,7 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="./index.html">
                     <img src="./static/logo.svg" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,7 +37,7 @@
                             <a class="nav-link" href="./news.html">Новости</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">О нас</a>
+                            <a class="nav-link" href="./contacts.html">О нас</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./vip.html">Vip-ложи</a>
@@ -67,61 +67,74 @@
     <!-- HEADER-END -->
 
     <section class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col p-0">
+                    <iframe class="ratio"
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2243.1112025711104!2d37.55737246593199!3d55.7913069305636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0JLQotCRINCw0YDQtdC90LAg0LrQsNGA0YLQsA!5e0!3m2!1sru!2sru!4v1616351299791!5m2!1sru!2sru"
+                        width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
-                <iframe class="ratio"
-                    src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2243.1112025711104!2d37.55737246593199!3d55.7913069305636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0JLQotCRINCw0YDQtdC90LAg0LrQsNGA0YLQsA!5e0!3m2!1sru!2sru!4v1616351299791!5m2!1sru!2sru"
-                    width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy">
-                </iframe>
-            </div>
-            <div class="row">
                 <div class="col">
-                    <span>
-                        Адрес: Россия, Москва, Ленинградский пр-т, 36
-                    </span>
-                    <span>
-                        Телефон: 8 (800) 77-77-316
-                    </span>
-                    <span>
-                        Почта: info@домен
-                    </span>
+                    <div class="contacts-address">
+                        <span class="contacts-address__item">
+                            Адрес: Россия, Москва, Ленинградский пр-т, 36
+                        </span>
+                        <span class="contacts-address__item">
+                            Телефон: 8 (800) 77-77-316
+                        </span>
+                        <span class="contacts-address__item">
+                            Почта: info@домен
+                        </span>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <span>
-                        Жалобы и претензии: group_technical@bk.ru
-                    </span>
-                    <span>
-                        По вопросам сотрудничества: group_technical@bk.ru
-                    </span>
+                    <div class="contacts-extra-info">
+                        <span class="contacts-extra-info__item">
+                            Жалобы и претензии: group_technical@bk.ru
+                        </span>
+                        <span class="contacts-extra-info__item">
+                            По вопросам сотрудничества: group_technical@bk.ru
+                        </span>
+                    </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col">
-                    <span>
-                        ИНН: 235212987086
-                    </span>
-                    <span>
-                        ОГРН: 319237500427140
-                    </span>
+                    <div class="contacts-extra-info">
+                        <span class="contacts-extra-info__item">
+                            ИНН: 235212987086
+                        </span>
+                        <span class="contacts-extra-info__item">
+                            ОГРН: 319237500427140
+                        </span>
+                    </div>
                 </div>
             </div>
-            <div class="row">
+            <div class="row my-3">
                 <div class="col">
-                    <h2>
+                    <h3 class="text-center title--response">
                         Оставьте заявку, наши менеджеры Вам перезвонят
-                    </h2>
-                    <form>
+                    </h3>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col">
+                    <form class="d-flex flex-column mx-auto form mw-100 form-gift">
                         <div class="mb-3">
-                            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                                placeholder="Ваше имя">
+                            <input type="text" placeholder="Ваше имя" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3">
-                            <input type="password" class="form-control" id="exampleInputPassword1"
-                                placeholder="Ваш телефон">
+                            <input type="tel" placeholder="Ваш телефон" class="form-control" id="exampleInputPassword1">
                         </div>
-                        <button type="submit" class="btn btn-primary">Оставить заявку</button>
+                        <button type="submit" class="btn btn-primary form-gift__btn">Оставить заявку</button>
                     </form>
                 </div>
             </div>
@@ -192,7 +205,7 @@
                             </a>
                         </li>
                         <li class="list-group-item">
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="./contacts.html">
                                 О нас
                             </a>
                         </li>

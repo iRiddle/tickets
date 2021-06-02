@@ -14,7 +14,7 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="./index.html">
                     <img src="./static/logo.svg" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,7 +37,7 @@
                             <a class="nav-link" href="./news.html">Новости</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">О нас</a>
+                            <a class="nav-link" href="./contacts.html">О нас</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./vip.html">Vip-ложи</a>
@@ -71,7 +71,9 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 p-0">
                     <div class="guarantee-img">
-                        <h1 class="guarantee-img__title m-0 pt-2 pb-2">Гарантия подлинности</h1>
+                        <div class="top-blanket">
+                            <h1 class="guarantee-img__title m-0 pt-2 pb-2">Гарантия подлинности</h1>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -79,14 +81,15 @@
         <div class="container">
             <div class="row my-5">
                 <div class="col">
-                    <p class="text-center fw-bold">На нашем сайте вы приобретаете только официальные билеты. Каждый
+                    <p class="text-center guarantee--description fw-bold">На нашем сайте вы приобретаете только
+                        официальные билеты. Каждый
                         приобретенный билет напечатан на
                         бланке организатора и имеет свой уникальный штрих-код и номер, что является гарантией вашего
                         беспрепятственного прохода на мероприятие, мы берем на себя ответственность за это. После оплаты
                         банковской картой на сайте вы получаете электронный чек с реквизитами нашей организации - это
                         является гарантией, что услуга будет полностью вам оказана.
                     </p>
-                    <p class="text-center fw-bold">
+                    <p class="text-center guarantee--description fw-bold my-3">
                         ВНИМАНИЕ: МЫ НЕСЕМ ОТВЕТСТВЕННОСТЬ ТОЛЬКО ЗА ТЕ БИЛЕТЫ, КОТОРЫЕ ПРИОБРЕТЕНЫ У НАС НА САЙТЕ.
                     </p>
                 </div>
@@ -94,10 +97,11 @@
             </div>
             <div class="row my-5">
                 <div class="col">
-                    <h5>
+                    <h5 class="guarantee--title-secondary">
                         Политика безопасности
                     </h5>
-                    <p>При оплате заказа банковской картой, обработка платежа (включая ввод номера карты) происходит на
+                    <p class="guarantee--description-second">При оплате заказа банковской картой, обработка платежа
+                        (включая ввод номера карты) происходит на
                         защищенной странице процессинговой системы, которая прошла международную сертификацию. Это
                         значит,
                         что Ваши конфиденциальные данные (реквизиты карты, регистрационные данные и др.) полностью
@@ -116,15 +120,24 @@
             </div>
             <div class="row my-5">
                 <div class="col-xs-12 col-sm-12 col-md-6">
-                    <h5>
+                    <h5 class="guarantee--title-secondary">
                         Проверка подлинности билетов
                     </h5>
-                    <p>
-                        -Бумажные билеты напечатаны на плотной матовой бумаге
-                        -Все билеты имеют свой уникальный штрих-код и номер
-                        -Все надписи на билете должны быть четко пропечатаны
-                        -Электронный билет не должен передаваться третьим лицам
-
+                    <ul class="guarantee-list guarantee--description-second">
+                        <li>
+                            Бумажные билеты напечатаны на плотной матовой бумаге
+                        </li>
+                        <li>
+                            Все билеты имеют свой уникальный штрих-код и номер
+                        </li>
+                        <li>
+                            Все надписи на билете должны быть четко пропечатаны
+                        </li>
+                        <li>
+                            Электронный билет не должен передаваться третьим лицам
+                        </li>
+                    </ul>
+                    <p class="guarantee--description-second">
                         Настоятельно рекомендуем не приобретать билеты у третьих лиц, в социальных сетях и на торговых
                         площадках, вы можете стать жертвами мошенников.
                     </p>
@@ -200,7 +213,7 @@
                             </a>
                         </li>
                         <li class="list-group-item">
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="./contacts.html">
                                 О нас
                             </a>
                         </li>

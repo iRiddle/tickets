@@ -14,7 +14,7 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="./index.html">
                     <img src="./static/logo.svg" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,7 +37,7 @@
                             <a class="nav-link" href="./news.html">Новости</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">О нас</a>
+                            <a class="nav-link" href="./contacts.html">О нас</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./vip.html">Vip-ложи</a>
@@ -71,7 +71,9 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-12 p-0">
                     <div class="vip-img">
-                        <h1 class="vip-img__title m-0 pt-2 pb-2">VIP-ложа</h1>
+                        <div class="top-blanket">
+                            <h1 class="vip-img__title m-0 pt-2 pb-2">VIP-ложа</h1>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -79,7 +81,7 @@
         <div class="container">
             <div class="row my-5">
                 <div class="col">
-                    <p>
+                    <p class="vip-description">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Felis sollicitudin fermentum sit netus
                         gravida mattis fermentum, malesuada. In gravida lectus libero aliquam. Quam facilisi id dolor
                         viverra risus etiam sit vitae. Id amet a suspendisse bibendum odio porttitor. Nisl, ut placerat
@@ -117,9 +119,13 @@
                 </div>
             </div>
             <div class="row my-5">
+                <div class="col">
+                    <h3 class="text-center title--response">Оставьте заявку, наши менеджеры Вам перезвонят</h3>
+                </div>
+            </div>
+            <div class="row my-5">
                 <div class="col-xs-12 col-sm-12">
-                    <form class="d-flex flex-column mx-auto form mw-100">
-                        <h3 class="text-center">Оставьте заявку, наши менеджеры Вам перезвонят</h3>
+                    <form class="d-flex flex-column mx-auto form mw-100 form-vip">
                         <div class="mb-3">
                             <input type="text" placeholder="Ваше имя" class="form-control" id="exampleInputEmail1"
                                 aria-describedby="emailHelp">
@@ -127,7 +133,7 @@
                         <div class="mb-3">
                             <input type="tel" placeholder="Ваш телефон" class="form-control" id="exampleInputPassword1">
                         </div>
-                        <button type="submit" class="btn btn-primary">Оставить заявку</button>
+                        <button type="submit" class="btn btn-primary form-vip__btn">Оставить заявку</button>
                     </form>
                 </div>
             </div>
@@ -198,7 +204,7 @@
                             </a>
                         </li>
                         <li class="list-group-item">
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="./contacts.html">
                                 О нас
                             </a>
                         </li>

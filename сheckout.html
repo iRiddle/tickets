@@ -14,7 +14,7 @@
     <header class="header">
         <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="./index.html">
                     <img src="./static/logo.svg" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -37,7 +37,7 @@
                             <a class="nav-link" href="./news.html">Новости</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">О нас</a>
+                            <a class="nav-link" href="./contacts.html">О нас</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./vip.html">Vip-ложи</a>
@@ -70,7 +70,7 @@
         <div class="container">
             <div class="row my-5">
                 <div class="col">
-                    <h1>
+                    <h1 class="checkout--main-title">
                         Оформление заказа
                     </h1>
                 </div>
@@ -80,50 +80,57 @@
                     <form>
                         <div class="row mb-3">
                             <div class="col">
-                                <h4>Контактные данные</h4>
+                                <h4 class="checkout--secondary-title">Контактные данные</h4>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-6">
-                                <input type="text" placeholder="Ваше ФИО" class="form-control mb-3"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" placeholder="Ваше ФИО"
+                                    class="form-control mb-3 checkout--control-text" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-6">
-                                <input type="password" placeholder="Ваш телефон" class="form-control mb-3"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="password" placeholder="Ваш телефон"
+                                    class="form-control mb-3 checkout--control-text" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-6">
-                                <input type="email" placeholder="Ваш e-mail" class="form-control mb-3"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="email" placeholder="Ваш e-mail"
+                                    class="form-control mb-3 checkout--control-text" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
                             </div>
                             <div class="col-xs-12 col-sm-12 col-md-6">
-                                <input type="text" placeholder="Адрес доставки" class="form-control mb-3"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" placeholder="Адрес доставки"
+                                    class="form-control mb-3 checkout--control-text" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12">
-                                <input type="text" placeholder="Комментарий к заказу" class="form-control mb-3"
-                                    id="exampleInputEmail1" aria-describedby="emailHelp">
+                                <input type="text" placeholder="Комментарий к заказу"
+                                    class="form-control mb-3 checkout--control-text" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp">
                             </div>
                         </div>
                         <div class="row mb-3">
                             <div class="col">
-                                <h4>Способ оплаты</h4>
+                                <h4 class="checkout--secondary-title">Способ оплаты</h4>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-xs-12 col-sm-6">
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input mb-3" id="exampleCheck1">
-                                    <label class="form-check-label mb-3" for="exampleCheck1">Наличные при
+                                    <label class="form-check-label mb-3 checkout--label-text"
+                                        for="exampleCheck1">Наличные при
                                         получении</label>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-6">
-                                <p>Вы можете оплатить билеты наличными нашему сотруднику, который осуществит доставку
+                                <p class="checkout--form-description">Вы можете оплатить билеты наличными нашему
+                                    сотруднику, который осуществит доставку
                                     билетов по указанному вами адресу. Доставка в пределах города бесплатная.</p>
                             </div>
                         </div>
@@ -132,19 +139,22 @@
                             <div class="col-xs-12 col-sm-6">
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input mb-3" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">Банковская карта</label>
+                                    <label class="form-check-label checkout--label-text" for="exampleCheck1">Банковская
+                                        карта</label>
                                 </div>
                             </div>
                             <div class="col-xs-12 col-sm-6">
-                                <p>Вы будете переведены на безопасную страницу банка для оплаты картой. После успешной
+                                <p class="checkout--form-description">Вы будете переведены на безопасную страницу банка
+                                    для оплаты картой. После успешной
                                     оплаты вы получите электронный чек, гарантирующий получение билетов. Билеты будут
                                     отправлены на электронную почту или доставлены курьером в удобное для вас место и
                                     время.</p>
                             </div>
                         </div>
-                        <div class="row mb-3">
+                        <div class="row mb-3 mt-3">
                             <div class="col-xs-12 col-sm-12">
-                                <p>При оплате заказа банковской картой, обработка платежа (включая ввод номера карты)
+                                <p class="checkout--form-description">При оплате заказа банковской картой, обработка
+                                    платежа (включая ввод номера карты)
                                     происходит на защищенной странице процессинговой системы, которая прошла
                                     международную сертификацию. Это значит, что Ваши конфиденциальные данные (реквизиты
                                     карты, регистрационные данные и др.) полностью защищены. Убедиться в этом вы можете,
@@ -158,7 +168,7 @@
                             <div class="col-xs-12 col-sm-12">
                                 <div class="form-check">
                                     <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                    <label class="form-check-label" for="exampleCheck1">
+                                    <label class="form-check-label checkout--label-text" for="exampleCheck1">
                                         Я ознакомился с Правилами оказания услуг и Политикой Конфиденциальности и даю
                                         согласие на обработку персональных данных.
                                     </label>
@@ -167,7 +177,7 @@
                         </div>
                         <div class="row mb-5">
                             <div class="col">
-                                <span class="fw-bold">
+                                <span class="fw-bold checkout--secondary-title">
                                     К оплате: 300руб
                                 </span>
                             </div>
@@ -175,10 +185,10 @@
                         <div class="row mb-5">
                             <div class="col">
                                 <div class="d-flex">
-                                    <button type="submit" class="btn btn-primary">Оплатить</button>
+                                    <button type="submit" class="btn btn-primary checkout--btn">Оплатить</button>
                                     <div class="d-flex align-items-center mx-5">
                                         <img src="./static/safe-deal.svg" alt="">
-                                        <span class="safe-deal-text mx-2 fw-bold">Безопасная сделка</span>
+                                        <span class="safe-deal-text mx-2 fw-bold">Безопасная оплата</span>
                                     </div>
                                 </div>
                             </div>
@@ -253,7 +263,7 @@
                             </a>
                         </li>
                         <li class="list-group-item">
-                            <a class="nav-link" href="">
+                            <a class="nav-link" href="./contacts.html">
                                 О нас
                             </a>
                         </li>
